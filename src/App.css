@@ -6,6 +6,15 @@
   overflow: hidden;
 }
 
+.app-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+
 .landing-page {
   position: relative;
   width: 100vw;
@@ -37,8 +46,8 @@
 }
 
 .landing_content {
- margin-top: 430px;
-  margin-left: 100px;
+  margin-top: 430px;
+  margin-left: 200px;
   transform: translate(-50%, -50%);
   z-index: 1;
   text-align: center;
