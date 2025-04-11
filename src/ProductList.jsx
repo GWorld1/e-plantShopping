@@ -303,7 +303,7 @@ function ProductList({ onHomeClick }) {
                                             <img className="product-image" src={plant.image} />
                                             <p className="product-price">{plant.cost}</p>
                                             <p>{plant.description}</p>
-                                            <button  className="product-button">Add to Cart</button>
+                                            <button onClick={handleAddToCart(plant)}  className="product-button">Add to Cart</button>
                                         </div> 
                                     ))
                                 }
